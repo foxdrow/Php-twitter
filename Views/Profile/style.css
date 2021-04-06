@@ -1,0 +1,11 @@
+.input-following{
+    display: none;
+}
+
+#show-following h5{
+    line-height: 0;
+}
+
+#show-follower h5{
+    line-height: 0;
+}

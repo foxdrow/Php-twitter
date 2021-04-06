@@ -1,0 +1,71 @@
+body, html {
+    height: 100vh;
+    background-size: cover;
+}
+
+#div-nav {
+    min-width: 60px;
+}
+
+#icn-back, #nav-hover {
+    width: 50px;
+    height: 50px;
+}
+
+#icn-back:hover, #nav-hover:hover {
+    background-color: #1da1f32c;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.active {
+    background-color: #1da1f32c;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#btn-tweet {
+    box-shadow: none;
+}
+
+#btn-edit-profile, #btn-search, #btn-start-conversation, #btn-post-tweet {
+    border: solid 1px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+#btn-edit-profile:hover {
+    background: #bad9fa86;
+}
+
+.logout {
+    width: 25px;
+    position: relative;
+    left: 18px;
+}
+
+nav > ul > li > *{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    right: 6px;
+    top: 0px;
+}
+
+nav img {
+    width: 4em;
+}
+
+.test
+{
+    overflow: auto  !important;
+}
+
+#button_theme {
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}

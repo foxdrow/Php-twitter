@@ -1,0 +1,5 @@
+body, html {
+    height: 100%;
+    background-image: url('../Assets/img_registration.jpg');
+    background-size: cover;
+}
